@@ -1,0 +1,20 @@
+.trailers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trailerCard {
+  position: relative;
+}
+
+.trailerCard h3 {
+  font-size: 2rem;
+  position: absolute;
+  bottom: -35%;
+  left: 80%;
+  color: #fff;
+}
+
+.head {
+  color: #fff;
+}

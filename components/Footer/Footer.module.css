@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background: red;
+  color: #fff;
+}
+.lists {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lists ul {
+  list-style: none;
+}
+
+.footerRight {
+  background: blue;
+  width: 40%;
+}
+
+.footerLeft {
+  background: green;
+  width: 40%;
+}
