@@ -1,6 +1,6 @@
 import Trailers from "../Trailers/Trailers";
 import s from "./Hero.module.css";
-const Hero = ({ trailers }) => {
+const Hero = ({ trailers, hero }) => {
   return (
     <div className={s.hero}>
       <Trailers trailers={trailers} />

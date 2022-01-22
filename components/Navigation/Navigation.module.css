@@ -2,9 +2,10 @@
   display: flex;
   justify-content: space-between;
   padding-top: 2rem;
-  background-color: #000;
-  color: #e5e5e5;
+  background-color: transparent;
+  color: #fff;
   font-size: 1rem;
+  align-items: center;
 }
 
 .leftSideNav {
@@ -12,19 +13,26 @@
 }
 
 .brand {
-  color: red;
+  color: #fff;
+  margin: 0 2rem 0 0;
+  font-size: 2rem;
 }
 
 .linksNav {
-  width: 300px;
+  font-size: 1rem;
+  align-items: center;
+  width: 100%;
   display: flex;
   justify-content: space-around;
+
   list-style: none;
   margin: 0;
 }
 
 .linksNav a {
   text-decoration: none;
+  color: #fff;
+  margin-right: 4rem;
 }
 
 .rightSideNav {

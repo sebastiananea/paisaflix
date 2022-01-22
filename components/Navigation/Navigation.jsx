@@ -4,7 +4,7 @@ const Navigation = () => {
   return (
     <div className={s.navBar}>
       <div className={s.leftSideNav}>
-        <span className={s.brand}>PaisaFlix</span>
+        <h2 className={s.brand}>PaisaFlix</h2>
         <ul className={s.linksNav}>
           <li>
             <Link href="/">

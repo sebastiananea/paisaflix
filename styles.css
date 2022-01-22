@@ -6,3 +6,23 @@ body {
   background: #000;
   font-family: "DM Sans", sans-serif;
 }
+
+.bg {
+  position: absolute;
+  left: 61%;
+  z-index: -1;
+}
+
+.bg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(81deg, rgba(0, 0, 0, 1) 7%, rgba(0, 0, 0, 0) 68%);
+}
+.bg > img {
+  width: 100%;
+}

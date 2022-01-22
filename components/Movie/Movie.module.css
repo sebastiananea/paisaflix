@@ -3,15 +3,27 @@
   position: relative;
 }
 
-.name {
-  font-size: 2.5rem;
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  margin-left: 0.5rem;
+.genre {
+  margin-top: 2rem;
 }
 
-.content {
+.genre > span {
+  color: #000000;
+  padding: 5px;
+  border-radius: 20%;
+  background: #fed530;
+  margin-top: 2rem;
+}
+
+.name {
+  font-size: 2.5rem;
+  /* position: absolute;
+  bottom: 8px;
+  left: 16px;
+  margin-left: 0.5rem; */
+}
+
+.contentOpacity {
   position: absolute; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   /* background: rgb(0, 0, 0); Fallback color */
@@ -20,4 +32,12 @@
   width: 100%; /* Full width */
   height: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.content {
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }

@@ -7,9 +7,19 @@ import Hero from "../components/Hero/Hero";
 
 const Index = ({ movies, trailers, hero }) => {
   return (
-    <div>
+    <div
+      className="heroContainer"
+      // style={{
+      //   backgroundImage: `url(${hero.coverImage})`,
+      // }}
+    >
+      <div className="bgEffects">
+        <div className="bg">
+          <img src={hero.coverImage} alt="" />
+        </div>
+      </div>
       <Container>
-        <Hero trailers={trailers} />
+        <Hero trailers={trailers} hero={hero} />
         <Movies movies={movies} />
       </Container>
     </div>
@@ -28,7 +38,7 @@ Index.getInitialProps = async (ctx) => {
   const resTrailersJSON = await resTrailers.json();
 
   const resHero = await fetch(
-    "https://paisa-challange.herokuapp.com/api/v1/paisaflix/trailers"
+    "https://paisa-challange.herokuapp.com/api/v1/paisaflix/hero"
   );
   const resHeroJSON = await resHero.json();
 
