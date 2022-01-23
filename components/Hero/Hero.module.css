@@ -1,3 +1,45 @@
 .hero {
+  margin-top: 10vh;
   height: 100vh;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 5rem;
+}
+
+.hero p {
+  width: 20%;
+}
+
+.bg {
+  width: 40%;
+  position: absolute;
+  top: -1%;
+  left: 61%;
+  z-index: -1;
+}
+
+.bg:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(81deg, rgba(0, 0, 0, 1) 7%, rgba(0, 0, 0, 0) 68%);
+}
+.bg > img {
+  width: 100%;
+}
+
+.cta {
+  margin-top: 2rem;
+  width: 20%;
+  background: #fed530;
+  padding: 1rem;
+  border-radius: 45.037px;
+  text-align: center;
+  color: #2e2e2e;
 }

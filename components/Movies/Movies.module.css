@@ -14,3 +14,19 @@
 .movies div:first-child {
   grid-column: 1/3;
 }
+
+.moviesHead {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.moviesHead h2 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.moviesHead h3 {
+  color: #fed530;
+}

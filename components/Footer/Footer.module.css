@@ -1,24 +1,100 @@
 .footer {
   display: flex;
-  justify-content: center;
-  background: red;
+
   color: #fff;
-}
-.lists {
-  display: flex;
-  justify-content: space-around;
+  margin: 9rem 0 3rem 0;
 }
 
-.lists ul {
-  list-style: none;
+.footer h1 {
+  margin: 0;
+  font-size: 5rem;
 }
 
 .footerRight {
-  background: blue;
   width: 40%;
+  margin-top: 2rem;
 }
 
 .footerLeft {
-  background: green;
   width: 40%;
+}
+
+.inputContainer {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  width: 40%;
+  height: 40px;
+  border: 1px solid #464646;
+  border-radius: 8px;
+  padding: 0.2rem;
+}
+
+.input {
+  background: #000;
+  border: none;
+  height: 60%;
+  width: 82%;
+  justify-self: center;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fed530;
+  border-radius: 8px;
+  height: 90%;
+  width: 14%;
+}
+
+.lists {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  margin-top: 0.4rem;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.list h4 {
+  margin-top: 1rem;
+  color: #464646;
+  font-weight: 200;
+}
+
+.product {
+  color: #fff !important;
+}
+
+.contact {
+  color: #fff;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  gap: 2rem;
+}
+
+.contact span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact span img {
+  margin: 5px;
 }
