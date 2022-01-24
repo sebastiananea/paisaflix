@@ -1,6 +1,17 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
+import { useState, useEffect } from "react";
 import s from "./Navigation.module.css";
 const Navigation = () => {
+  const router = useRouter();
+  const [clicked, setClicked] = useState("home");
+
+  useEffect(() => {
+    if (router.pathname !== "/") {
+      setClicked("");
+    }
+  }, []);
+
   return (
     <div className={s.navBar}>
       <div className={s.leftSideNav}>
@@ -8,30 +19,56 @@ const Navigation = () => {
         <ul className={s.linksNav}>
           <li>
             <Link href="/">
-              <a>Home</a>
+              <a
+                onClick={() => setClicked("home")}
+                className={clicked === "home" ? s.links : " "}
+              >
+                Home
+              </a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <a>Contact Us</a>
+              <a
+                onClick={() => setClicked("contact")}
+                className={clicked === "contact" ? s.links : " "}
+              >
+                Contact Us
+              </a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <a>FAQ</a>
+              <a
+                onClick={() => setClicked("faq")}
+                className={clicked === "faq" ? s.links : " "}
+              >
+                FAQ
+              </a>
             </Link>
           </li>
           <li>
             <Link href="#">
-              <a>Pricing</a>
+              <a
+                onClick={() => setClicked("pricing")}
+                className={clicked === "pricing" ? s.links : " "}
+              >
+                Pricing
+              </a>
             </Link>
           </li>
         </ul>
       </div>
       <div className={s.rightSideNav}>
-        <span>Lupita</span>
-        <span>Imagen</span>
-        <span>Soy Paisanx</span>
+        <span>
+          <img src="/Search.png" alt="search" />
+        </span>
+        <div className={s.profile}>
+          <span>
+            <img src="/photo.png" alt="profile-pic" />
+          </span>
+          <span>Soy Paisanx</span>
+        </div>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@
 }
 
 .genre > span {
-  color: #000000;
+  color: #2e2e2e;
   padding: 5px;
   border-radius: 20%;
   background: #fed530;
@@ -17,6 +17,7 @@
 
 .name {
   font-size: 2.5rem;
+  color: #fff;
   /* position: absolute;
   bottom: 8px;
   left: 16px;
@@ -26,12 +27,14 @@
 .contentOpacity {
   position: absolute; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  /* background: rgb(0, 0, 0); Fallback color */
-  /* background: rgba(0, 0, 0, 0.5); Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
+  color: #cccccc; /* Grey text */
   width: 100%; /* Full width */
   height: 100%;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.contentOpacity:hover {
+  background: transparent;
 }
 
 .content {
@@ -40,4 +43,21 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
+}
+
+.movieImg {
+  width: 100%;
+  height: 100%;
+}
+
+.spans {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.durationSpan {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }

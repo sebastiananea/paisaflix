@@ -15,7 +15,7 @@
 .brand {
   color: #fff;
   margin: 0 2rem 0 0;
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
 .linksNav {
@@ -33,11 +33,50 @@
   text-decoration: none;
   color: #fff;
   margin-right: 4rem;
+  font-weight: 400;
 }
 
 .rightSideNav {
   display: flex;
   width: 300px;
-
+  align-items: center;
   justify-content: space-around;
+}
+
+.links {
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.3rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.links::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 109%;
+  height: 0;
+  animation: myAnim 1s;
+  border-bottom: 6px solid #fed530;
+  clear: both;
+}
+
+@keyframes myAnim {
+  0% {
+    border-color: rgba(0, 255, 255, 1);
+  }
+  50% {
+    border-color: rgba(0, 255, 255, 0);
+  }
+  100% {
+    border-color: rgba(0, 255, 255, 1);
+  }
+}
+
+.profile {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  height: 100%;
 }

@@ -1,7 +1,6 @@
-import s from './Trailers.module.css'
+import s from "./Trailers.module.css";
 
 const Trailers = ({ trailers }) => {
-  console.log(trailers)
   return (
     <div>
       <h2 className={s.head}>Trailers</h2>
@@ -20,7 +19,7 @@ const Trailers = ({ trailers }) => {
         )}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Trailers
+export default Trailers;

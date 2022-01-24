@@ -6,10 +6,10 @@
   grid-gap: 0.8rem;
 }
 
-.movies div img {
+/* .movies div img {
   width: 100%;
   height: 100%;
-}
+} */
 
 .movies div:first-child {
   grid-column: 1/3;
@@ -29,4 +29,5 @@
 
 .moviesHead h3 {
   color: #fed530;
+  cursor: pointer;
 }

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import s from "./Movie.module.css";
+import { toHsandMins, viewsToK } from "../../utils/utils";
 
 const Movie = ({ name, genre, duration, views, coverImage, id }) => {
   return (
@@ -11,13 +12,22 @@ const Movie = ({ name, genre, duration, views, coverImage, id }) => {
               <span>{genre}</span>
             </div>
             <div className={s.bot}>
-              <div>{duration}</div> <div>{views}</div>
+              <div className={s.spans}>
+                <span className={s.durationSpan}>
+                  <img src="/Clock.png" alt="clock" />
+                  {toHsandMins(duration)}
+                </span>{" "}
+                <span className={s.durationSpan}>
+                  <img src="Eye.png" alt="eye" />
+                  {viewsToK(views)}
+                </span>
+              </div>
               <h2 className={s.name}>{name}</h2>
             </div>
           </div>
         </div>
 
-        <img src={coverImage} />
+        <img className={s.movieImg} src={coverImage} />
       </div>
     </Link>
   );

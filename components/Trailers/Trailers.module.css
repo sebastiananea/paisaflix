@@ -5,8 +5,14 @@
 }
 
 .trailerCard {
+  cursor: pointer;
   position: relative;
   width: 19%;
+}
+
+.trailerCard:hover {
+  transition: box-shadow 0.3s;
+  box-shadow: 1px 1px 15px 2px #0ff;
 }
 
 .trailerCard img {

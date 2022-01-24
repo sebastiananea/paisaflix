@@ -82,7 +82,8 @@
 .contact {
   color: #fff;
   display: flex;
-  justify-content: right;
+  position: relative;
+  left: 39%;
   align-items: center;
   height: 200px;
   width: 100%;
