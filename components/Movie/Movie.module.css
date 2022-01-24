@@ -9,7 +9,7 @@
 
 .genre > span {
   color: #2e2e2e;
-  padding: 5px;
+  padding: 0.3rem;
   border-radius: 20%;
   background: #fed530;
   margin-top: 2rem;
@@ -19,8 +19,8 @@
   font-size: 2.5rem;
   color: #fff;
   /* position: absolute;
-  bottom: 8px;
-  left: 16px;
+  bottom: 0.5rem;
+  left: 1rem;
   margin-left: 0.5rem; */
 }
 

@@ -24,7 +24,7 @@
   justify-self: center;
   align-items: center;
   width: 40%;
-  height: 40px;
+  height: 2.5rem;
   border: 1px solid #464646;
   border-radius: 8px;
   padding: 0.2rem;
@@ -73,6 +73,11 @@
   margin-top: 1rem;
   color: #464646;
   font-weight: 200;
+  cursor: pointer;
+}
+
+.list h4:hover {
+  color: #fed530;
 }
 
 .product {
@@ -85,7 +90,7 @@
   position: relative;
   left: 39%;
   align-items: center;
-  height: 200px;
+  height: 12.5rem;
   width: 100%;
   gap: 2rem;
 }
@@ -97,5 +102,5 @@
 }
 
 .contact span img {
-  margin: 5px;
+  margin: 0.3rem;
 }
