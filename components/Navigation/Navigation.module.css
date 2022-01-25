@@ -1,10 +1,10 @@
 .navBar {
   display: flex;
   justify-content: space-between;
-  padding-top: 2rem;
+  padding-top: 2em;
   background-color: transparent;
   color: #fff;
-  font-size: 1rem;
+  font-size: 1em;
   align-items: center;
 }
 
@@ -14,12 +14,12 @@
 
 .brand {
   color: #fff;
-  margin: 0 2rem 0 0;
-  font-size: 2.3rem;
+  margin: 0 2em 0 0;
+  font-size: 2.3em;
 }
 
 .linksNav {
-  font-size: 1rem;
+  font-size: 1em;
   align-items: center;
   width: 100%;
   display: flex;
@@ -32,7 +32,7 @@
 .linksNav a {
   text-decoration: none;
   color: #fff;
-  margin-right: 4rem;
+  margin-right: 4em;
   font-weight: 400;
 }
 
@@ -44,8 +44,8 @@
 }
 
 .links {
-  padding-bottom: 0.3rem;
-  margin-bottom: 0.3rem;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.3em;
   position: relative;
   display: flex;
   justify-content: center;
@@ -76,7 +76,7 @@
 
 .profile {
   display: flex;
-  gap: 1rem;
+  gap: 1em;
   align-items: center;
   height: 100%;
 }

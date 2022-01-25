@@ -2,17 +2,17 @@
   display: flex;
 
   color: #fff;
-  margin: 9rem 0 3rem 0;
+  margin: 9em 0 3em 0;
 }
 
 .footer h1 {
   margin: 0;
-  font-size: 5rem;
+  font-size: 5em;
 }
 
 .footerRight {
   width: 40%;
-  margin-top: 2rem;
+  margin-top: 2em;
 }
 
 .footerLeft {
@@ -24,10 +24,10 @@
   justify-self: center;
   align-items: center;
   width: 40%;
-  height: 2.5rem;
+  height: 2.5em;
   border: 1px solid #464646;
   border-radius: 8px;
-  padding: 0.2rem;
+  padding: 0.2em;
 }
 
 .input {
@@ -60,7 +60,7 @@
 }
 
 .list {
-  margin-top: 0.4rem;
+  margin-top: 0.4em;
   width: 25%;
   height: 100%;
   display: flex;
@@ -70,7 +70,7 @@
 }
 
 .list h4 {
-  margin-top: 1rem;
+  margin-top: 1em;
   color: #464646;
   font-weight: 200;
   cursor: pointer;
@@ -90,9 +90,9 @@
   position: relative;
   left: 39%;
   align-items: center;
-  height: 12.5rem;
+  height: 12.5em;
   width: 100%;
-  gap: 2rem;
+  gap: 2em;
 }
 
 .contact span {
@@ -102,5 +102,5 @@
 }
 
 .contact span img {
-  margin: 0.3rem;
+  margin: 0.3em;
 }

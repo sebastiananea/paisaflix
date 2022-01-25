@@ -1,12 +1,10 @@
 .hero {
   margin-top: 10vh;
-  height: 100vh;
   color: #fff;
 }
 
 .hero h1 {
-  font-size: 5rem;
-  margin-bottom: 2rem;
+  font-size: 5em;
 }
 
 .hero h2 {
@@ -14,7 +12,7 @@
 }
 
 .hero h4 {
-  margin: 0.5rem 0;
+  margin: 0.5em 0;
   font-weight: 400;
 }
 
@@ -48,15 +46,15 @@
 .cta {
   font-weight: 700;
   cursor: pointer;
-  margin-top: 2rem;
+  margin-top: 2em;
   width: 20%;
   background: #fed530;
-  padding: 1rem;
+  padding: 1em;
   border-radius: 45.037px;
   text-align: center;
   color: #2e2e2e;
 }
 
 .stars {
-  margin-bottom: 4rem;
+  margin-bottom: 4em;
 }

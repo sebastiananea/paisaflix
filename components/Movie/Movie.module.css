@@ -4,24 +4,24 @@
 }
 
 .genre {
-  margin-top: 2rem;
+  margin-top: 2em;
 }
 
 .genre > span {
   color: #2e2e2e;
-  padding: 0.3rem;
+  padding: 0.3em;
   border-radius: 20%;
   background: #fed530;
-  margin-top: 2rem;
+  margin-top: 2em;
 }
 
 .name {
-  font-size: 2.5rem;
+  font-size: 2.5em;
   color: #fff;
   /* position: absolute;
-  bottom: 0.5rem;
-  left: 1rem;
-  margin-left: 0.5rem; */
+  bottom: 0.5em;
+  left: 1em;
+  margin-left: 0.5em; */
 }
 
 .contentOpacity {
@@ -53,11 +53,11 @@
 .spans {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 1em;
 }
 
 .durationSpan {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.5em;
 }

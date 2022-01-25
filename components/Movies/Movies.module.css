@@ -1,9 +1,9 @@
 .movies {
-  margin: 2rem auto;
+  margin: 2em auto;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-auto-rows: 50%;
-  grid-gap: 0.8rem;
+  grid-gap: 0.8em;
 }
 
 /* .movies div img {
@@ -24,7 +24,7 @@
 
 .moviesHead h2 {
   color: #fff;
-  font-size: 3rem;
+  font-size: 3em;
 }
 
 .moviesHead h3 {
