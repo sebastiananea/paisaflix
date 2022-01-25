@@ -1,5 +1,5 @@
-import Movie from '../Movie/Movie'
-import s from './Movies.module.css'
+import Movie from "../Movie/Movie";
+import s from "./Movies.module.css";
 const Movies = ({ movies }) => {
   return (
     <>
@@ -10,6 +10,7 @@ const Movies = ({ movies }) => {
       <div className={s.movies}>
         {movies.map((movie) => (
           <Movie
+            key={movie._id}
             name={movie.name}
             genre={movie.genre}
             duration={movie.duration}
@@ -20,7 +21,7 @@ const Movies = ({ movies }) => {
         ))}
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Movies
+export default Movies;

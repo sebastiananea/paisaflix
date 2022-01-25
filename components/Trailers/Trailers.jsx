@@ -7,7 +7,7 @@ const Trailers = ({ trailers }) => {
       <div className={s.trailers}>
         {Array.isArray(trailers) ? (
           trailers.map((trailer, index) => (
-            <div className={s.trailerCard}>
+            <div key={trailer._id} className={s.trailerCard}>
               <h3>0{index + 1}</h3>
               <img key={trailer._id} src={trailer.trailerImage} />
             </div>
